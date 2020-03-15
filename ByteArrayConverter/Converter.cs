@@ -44,7 +44,7 @@
                 //second char, little
                 byte byte2 = (byte)hex[i + 1];
                 if (byte2 < 58) byte2 -= 48;
-                else if (byte2 > 64 && byte2 < 97) byte2 -= 55;
+                else if (byte2 > 64 && byte2 < 71) byte2 -= 55;
                 else if (byte2 > 96) byte2 -= 87;
                 //add
                 byte sum = (byte)(byte1 + byte2);
